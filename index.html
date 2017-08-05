@@ -1,0 +1,252 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+	<link type="text/css" rel="stylesheet" href="styles/ss.css" />	
+	<link rel="shortcut icon" href="images/ss_favicon.png" />
+	<script type="text/javascript" src="scripts/prototype.js" ></script>
+	<script type="text/javascript">
+		var currDiv = 'home';
+
+		function show(div)
+		{
+			$(currDiv).removeClassName('show');
+			$(currDiv).addClassName('hide');	
+			$(div).removeClassName('hide');
+			$(div).addClassName('show');
+			currDiv = div;
+		}	
+	</script>
+	<title>Skyler and Staci</title>
+</head>
+<body>
+	<div id='main'>		
+		<div id='title-picture'>
+			<img src='images/title4.jpg' title='us!' />				
+		</div>
+		<div id='menu'>
+			<div class='menu-item'><a href="javascript:show('home')">Home</a></div>
+			<div class='menu-item'><a href="javascript:show('about')">About Us</a></div>
+			<div class='menu-item'><a href="javascript:show('story')">Our Story</a></div>
+			<div class='menu-item'><a href="javascript:show('proposal')">Proposal</a></div>
+			<div class='menu-item'><a href="javascript:show('party')">Wedding Party</a></div>
+			<div class='menu-item menu-item-last'><a href="javascript:show('info')">Wedding Information</a></div>			
+		</div>
+		<div id='content' class='content'>
+			<div id='home' class='show'>
+				<div class='content-header'>
+					<div class='title-names'>Skyler & Staci</div>
+					<div class='title-date'>March 5th, 2011</div>
+				</div>
+				<div class='content-text'>			
+					<div class='text'>
+						Family and friends,<br /><br /> Welcome to our wedding website!  
+						Here you can read about us, the proposal and get all sorts of wedding information.
+						<br/ ><br />We can't wait to get married and see you all on March 5th!
+						<br /><br />Love,<br /><br />Skyler and Staci
+					</div>
+					<div class='mission' title='Our mission statement for our marriage'>						
+						''Our mission in life is to love, give and encourage in relationships through teaching and hospitality.''
+					</div>
+				</div>
+				<div class='content-footer'>Made by the <a href="mailto:skyler.gast+wedding@gmail.com">groom</a>.</div>
+			</div>	
+			<div id='about' class='hide'>
+				<div class='content-header'>
+					<div class='title-single'>About Us</div>				
+				</div>
+				<div class='content-text content-text-about'>
+					<div class='about'>
+						<div class='bride'>
+							<div class='title'>About the Bride</div>
+							<div class='a-text'>								
+								<div>
+									<img class='a-pic' src='images/staci1.jpg' title="Taken at Sean's 'Murder Mystery' birthday party" />
+									Name: Staci LeAnn Harp
+									<br /><br />
+									Age: 24
+									<br /><br />
+									Hometown: Denison, TX
+									<br /><br />
+									College: Oklahoma Baptist University
+									<br /><br />
+									Career: Nurse
+									<br /><br />
+									I love: I'll start with the obvious...Skyler, my family, smiling just to smile, my AMAZING friends, 
+									rainy days except when I'm working, using my job to share Christ's love, being silly, 
+									reading a good book, my grandma's apple pie, bright colors, homey spaces, killing people 
+									with kindness when they insist on being rude, jeans from ebay, finding a bargin and most 
+									of all, maybe even more than Skyler, my AMAZING Savior who is always with me and alive 
+									inside me.
+								</div>
+							</div>
+						</div>
+						<div class='groom'>
+							<div class='title'>About the Groom</div>
+							<div class='a-text'>								
+								<div>
+									<img class='a-pic' src='images/skyler1.jpg' title="Taken in St. Louis at 'City Museum'" />
+									Name: Skyler William Gast
+									<br /><br />
+									Age: 23
+									<br /><br />
+									Hometown: Waco, TX
+									<br /><br />
+									College: University of Texas at Arlington
+									<br /><br />
+									Career: Software Developer
+									<br /><br />
+									Likes: Staci!!, Lifegroup, Golf (when I can), Deep conversations, Cowboys and Colts (football, not guys on horses), Starcraft 2 (yes, I'm a nerd)
+									<br /><br />
+									Dislikes: Heights, Materialism, Being late
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class='content-footer'></div>
+			</div>
+			<div id='story' class='hide'>
+				<div class='content-header'>
+					<div class='title-single'>Our Story</div>				
+				</div>
+				<div class='content-text content-text-story story'>
+					<div class='s-text'>
+						<span class='s-spacer'></span>
+						We met at Mercy Place at Lifegroup in September, 2009.  Over the next few months we got to know each other 
+						through Lifegroup events, MP functions [<span class='skyler' title='Skyler'>She dominated in Turkey Bowl</span>] 
+						and other group things, two significant ones being Hailee's Ugly Sweater Christmas party and New Years Eve.<br /><br />
+						We started dating in January of 2010 [<span class='staci' title='Staci'>the exact date was January 23</span>] 
+						[<span class='skyler' title='Skyler'>I know.. I know.. Why did it take me so long?!</span>].  
+						January to August was full of great times: we started to co-lead our Lifegroup, took a few 
+						weekend trips together to see friends and family, <span class='skyler' title='Skyler'>took Staci to the driving range</span>, 
+						<span class='staci' title='Staci'>beat Skyler in almost every game we played</span> and many 
+						other fun and memorable things.<br /><br />We got engaged August 21st and have been growing 
+						closer and getting to know each other more every day.  
+						We know that God has brought us together and has great plans for our marriage!
+					</div>
+				</div>
+				<div class='content-footer'></div>
+			</div>
+			<div id='proposal' class='hide'>
+				<div class='content-header'>
+					<div class='title-single'>The Proposal</div>				
+				</div>
+				<div class='content-text content-text-propose propose'>					
+					<div class='p-text'>
+						<span class='p-spacer'></span>
+						<img class='p-pic' src='images/propose.jpg' title="She said YES!" />
+						Skyler knew that my family and friends mean a lot to me so he asked me to marry 
+						him in front of all my family and friends.it was perfect. <br /><br />I went Italy with my mom 
+						the week before and before I left I told Skyler "don't forget my dad is in Dallas on 
+						Tuesday if you need to ask him anything". [<span class='skyler' title='Skyler'>I was already planning to ask.</span>] Later found out that he did have dinner with my 
+						dad and asked him. He was so nervous that he had everything he wanted to say written out.<br /><br />
+						When we got back from our trip, Skyler was adamant about going to my house for just a 
+						Friday night. [<span class='skyler' title='Skyler'>I tried to make it seem like her idea; I guess it didn't work...</span>] He said that I would probably want to show off pictures from my trip. 
+						So I didn't turn down an offer go to home even if it was for just one night. <br /><br />
+						On Saturday, we went to Saturday morning breakfast with my Memaw and Aunt Jimi Lou 
+						which has been a tradition in our family for years. I later learned that my Aunt Janet 
+						was there and had to leave with the kids before Skyler and I got there. So after breakfast 
+						Memaw asked us to come over for lunch which isn't an unusual thing because we have lunch at 
+						Memaw's quite often. After we had breakfast, Skyler tried to keep me occupied until noon so we 
+						went shopping, to sonic and then a park by my house. Then we went to lunch at my memaw's and we 
+						pull up to the house and there were tons of cars there and I asked him what was going on and he 
+						grabbed my hand said "just come on". So I followed and then when we got around the corner and 
+						saw everyone then Skyler got down on one knee and asked me to marry him and of course I said 
+						YES!!!!!! <br /><br />I can't even remember if he asked or if I just said yes. He also said "Staci, I love 
+						you and want to spend the rest of my life with you". This was a really big deal because we had 
+						never said those words to each other.  It was such a wonderful time and I was so happy that we 
+						all my friends and family were there to celebrate with us. [<span class='skyler' title='Skyler'>Thanks for keeping it a secret for 2 weeks!</span>] I could not imagine a more perfect 
+						proposal. Oh and to make it even more special later on that day Skyler gave me a journal that 
+						detailed the ring shopping, asking my dad and all the planning that went into the big day. He 
+						also added a couple of pages of sweet letters to me.<br /><br />I'm so thankful to God who brought us 
+						together and who we know will keep us together as one forever. 
+						I can't wait to marry Skyler!!! <span class='skyler' title='Skyler'>I can't wait to marry Staci!!!</span>
+					</div>
+				</div>
+				<div class='content-footer'></div>
+			</div>
+			<div id='party' class='hide'>
+				<div class='content-header'>
+					<div class='title-single'>Wedding Party</div>				
+				</div>
+				<div class='content-text'>
+					<div class='about'>
+						<div class='bride'>
+							<div class='title'>Bridesmaids</div>
+							<div class='wp-text'>
+								<div>Molly Dunn - Maid of Honor</div>								
+								<div>Julie Bates</div>
+								<div>Erin Cluley</div>
+								<div>Hailee Christal</div>
+								<div>Samantha Gast</div>
+								<div>Meredith Harrison</div>
+								<div>Melissa Perry</div>
+							</div>
+							<br />
+							<div class='title'>House Party</div>
+							<div class='wp-text'>
+								<div>LeeAnn Beard</div>								
+								<div>Savannah Gaston</div>
+								<div>Tiffany Hines</div>
+								<div>Chrissy Perez</div>								
+							</div>
+						</div>
+						<div class='groom'>
+							<div class='title'>Groomsmen</div>
+							<div class='wp-text'>
+								<div>David Sims - Best Man</div>								
+								<div>Mike Cluley</div>
+								<div>Kyle Harp</div>
+								<div>Sean Isbell</div>
+								<div>Scott Perez</div>
+								<div>Sunthosh Sivam</div>
+								<div>Danson Worley</div>
+							</div>
+							<br />
+							<div class='title'>Ushers</div>
+							<div class='wp-text'>
+								<div>James Mulvey</div>								
+								<div>Jarod Olds</div>								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class='content-footer'></div>
+			</div>
+			<div id='info' class='hide'>
+				<div class='content-header'>
+					<div class='title-single'>Wedding Info</div>				
+				</div>
+				<div class='content-text content-text-info info'>
+					<div class='i-text'>
+						<div>
+							<span class='title'>Location</span>
+							<span class='text'>
+								Parkside Baptist Church, Denison, TX - 						
+								<a target="_blank" href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Parkside+Baptist+Church,+Denison,+TX&aq=&sll=32.802955,-96.769923&sspn=0.953444,1.783905&ie=UTF8&hq=Parkside+Baptist+Church,&hnear=Denison,+Grayson,+Texas&z=14&iwloc=A">Map</a>						
+							</span>
+						</div>
+						<div>
+							<span class='title'>Hotels near the church</span>
+							<span class='text'>
+								<div>Holiday Inn Express - <a target='_blank' href='http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=holiday+inn+express&aq=&sll=33.758099,-96.585445&sspn=0.026867,0.043731&ie=UTF8&hq=holiday+inn+express&hnear=&z=15'>Map</a></div>
+								<div>Best Western - <a target='_blank' href='http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=best+western&aq=&sll=33.775652,-96.583042&sspn=0.026861,0.043731&ie=UTF8&hq=best+western&hnear=&z=15&iwloc=A'>Map</a></div>
+							</span>
+						</div>
+						<div>
+							<span class='title'>Registry locations and links</span>
+							<span class='text'>
+								<div><a target='_blank' href='http://www.bedbathandbeyond.com/regGiftRegistry.asp?wrn=-1622869400&'>Bed Bath and Beyond</a></div>
+								<div><a target='_blank' href='http://www1.macys.com/registry/wedding/guest/?registryId=346380'>Macy's</a></div>
+								<div><a target='_blank' href='http://www.target.com/registry/wedding/2YD94IRWGSW2T'>Target</a></div>
+							</span>
+						</div>						
+					</div>							
+				</div>
+				<div class='content-footer'></div>				
+			</div>
+		</div>		
+	</div>
+</body>
+</html>
